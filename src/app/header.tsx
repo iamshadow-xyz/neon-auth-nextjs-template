@@ -17,7 +17,7 @@ export async function Header() {
         <div className="flex items-center gap-5">
           <span className="">
             {userProfile?.name && (
-              <span className="bg-primary-1">
+              <span className="bg-">
                 {`Hello, ${userProfile?.name.split(" ")[0]}`}
               </span>
             )}
